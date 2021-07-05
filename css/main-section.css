@@ -15,10 +15,10 @@
 }
 
 .row {
-    height: 300px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .section-title {
@@ -28,18 +28,20 @@
 }
 
 .cover {
+    position: relative;
     width: 150px;
     height: 150px;
 }
 
 .item {
     width: 150px;
-    height: 75px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-content: space-around;
+    text-align: center;
 }
 
 .item-title {
@@ -55,3 +57,4 @@
 .artist {
     border-radius: 50%;
 }
+
