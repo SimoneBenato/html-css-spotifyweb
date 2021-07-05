@@ -1,0 +1,54 @@
+.nav {
+    float: left;
+    width: 250px;
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 50px;
+}
+
+.logo {
+    height: 10vh;
+}
+
+.nav-main {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.playlist {
+    height: 52vh;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    height: 12vh;
+}
+
+.nav-main ul li {
+    font-weight: 600;
+}
+
+.playlist h4 {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.new-playlist {
+    display: flex;
+    color: rgb(163, 163, 163);
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+i {
+    margin-right: 15px;
+}

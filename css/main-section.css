@@ -1,0 +1,57 @@
+.main {
+    float: left;
+    width: calc(100% - 250px);
+    height: 90vh;
+    background-color: rgb(20, 25, 34);
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    float: inline-start;
+    height: 70px;
+}
+
+.row {
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-title {
+    color: white;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.cover {
+    width: 150px;
+    height: 150px;
+}
+
+.item {
+    width: 150px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+.item-title {
+    color: white;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.card {
+    margin: 15px 10px 0px 0px;
+}
+
+.artist {
+    border-radius: 50%;
+}
