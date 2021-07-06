@@ -14,6 +14,10 @@
     margin-bottom: 20px;
 }
 
+.logo-small {
+    display: none;
+}
+
 .nav-main {
     min-height: 120px;
     display: flex;
@@ -63,11 +67,4 @@ i {
 
 .cust-playlist ul li {
     font-size: 15px;
-}
-
-@media screen and (max-width: 600px) {
-    .nav {
-        width: 50px;
-    }
-    
 }
