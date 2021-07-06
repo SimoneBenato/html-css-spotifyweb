@@ -1,7 +1,7 @@
 .main {
     float: left;
     width: calc(100% - 250px);
-    height: 90vh;
+    height: 93vh;
     background-color: rgb(20, 25, 34);
 }
 
@@ -10,8 +10,7 @@
     justify-content: space-around;
     align-items: center;
     align-content: space-between;
-    float: inline-start;
-    height: 70px;
+    flex-wrap: wrap;
 }
 
 .row {

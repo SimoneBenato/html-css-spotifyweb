@@ -1,28 +1,29 @@
 .nav {
     float: left;
     width: 250px;
-    height: 90vh;
+    height: 93vh;
     background-color: black;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     padding-right: 50px;
 }
 
 .logo {
-    height: 10vh;
+    min-height: 85px;
 }
 
 .nav-main {
-    height: 15vh;
+    min-height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .playlist {
-    height: 52vh;
+    height: 900px;
+    min-height: 150px;
+    overflow-y: auto;
 }
 
 .user {
@@ -30,7 +31,12 @@
     flex-direction: column;
     justify-content: space-around;
     font-size: 20px;
-    height: 12vh;
+    min-height: 90px;
+    background-color: black;
+}
+
+hr {
+    margin: 20px 0;
 }
 
 .nav-main ul li {
@@ -51,4 +57,11 @@
 
 i {
     margin-right: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .nav {
+        width: 50px;
+    }
+    
 }
