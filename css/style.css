@@ -21,7 +21,8 @@ body {
 }
 
 .main {
-    overflow-y: auto;
+    overflow-y: auto
+    ;
 }
 
 .p15 {
